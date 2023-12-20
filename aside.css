@@ -1,0 +1,93 @@
+
+aside{
+     /* border-top: 5px solid rgb(74, 72, 72); */
+    border-bottom: 5px solid rgb(74, 72, 72);
+    display: flex;
+    background-color: black;
+    height: 500px;
+    color: white;
+}
+
+aside>div{
+    /* border: 3px solid blue; */
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+
+aside>div>h1{
+    /* border: 3px solid green; */
+    /* padding-top: 10%; */
+    /* width: 500px; */
+    font-family: sans-serif;
+    font-size: 45px;
+    color: rgb(255,255,255);
+}
+aside>div>h1+p{
+    /* border: 3px solid yellow; */
+    width: 600px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(255,255,255);
+    margin-top: 4%;
+    margin-left: 12%;
+}
+aside>div+div{
+    /* border: 3px solid red; */
+    height: 450px;
+    margin-top: 1%;
+    position: relative;
+
+}
+aside>div+div>img+video{
+    position: absolute;
+    left:120px;
+    top:50px;
+    width: 400px;
+    z-index:111;
+}
+#aside2{
+    border-bottom: 5px solid rgb(74, 72, 72);
+    background-color: black;
+    display: flex;
+    height: 550px;
+    color: white;
+}
+#aside2>div>div{
+    border: 2px solid rgb(109, 107, 107);
+    width: 300px;
+    height: 80px;
+    margin-left: 43%;
+    border-radius: 10px;
+
+}
+#aside2>div>h1+p{
+    /* border: 3px solid yellow; */
+    width: 600px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(255,255,255);
+    margin-top: 4%;
+    margin-left: 15%;
+}
+#aside2>div>h1{
+    /* border: 3px solid green; */
+    padding-top: 17%;
+    width: 800px;
+    font-family: sans-serif;
+    font-size: 45px;
+    color: rgb(255,255,255);
+}
+
+#demo{
+    position: absolute;
+    /* border: 2px solid red; */
+    z-index: 1111111;
+}
+
+#video{
+    position: absolute;
+    /* z-index: -111; */
+    /* border: 2px solid yellow; */
+}

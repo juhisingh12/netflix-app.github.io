@@ -1,0 +1,115 @@
+
+figure{
+    border-bottom: 5px solid rgb(74, 72, 72) ;
+    height: 1100px;
+    background-color: black;
+    color: white;
+    
+}
+figure>h1{
+    /* border: 2px solid red; */
+    color: white;
+    font-family: sans-serif;
+    font-size: 3rem;
+    width: 800px;
+    margin-left: 26%;
+    padding-top: 5%;
+}
+
+figure>div>div{
+    /* border: 3px solid green; */
+    background: rgb(49, 49, 49);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+figure>div>div>details>summary{
+    /* border: 3px solid; */
+    /* margin-top: 1%; */
+    font-size: 30px;
+    font-weight: 700;
+    /* font-family: sans-serif; */
+    padding: 20px;
+}
+#svg1{
+    margin-left: 70%;
+}
+figure>div>div>details>ol{
+    margin-top: 25px;
+}
+figure>div>div>details>ol>li{
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+figure>div>div>details>ol>li+li{
+    margin-top: 2%;
+}
+
+figure>div>div+div{
+    /* border: 3px solid red; */
+     /* font-size: 25px; */
+    margin-left: 15%;
+    margin-right: 15%;
+    /* padding: 20px; */
+    margin-top: 1%;
+}
+figure>div>div+div>details>summary{
+    /* border: 3px solid yellow; */
+    /* margin-top: 1%; */
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+}
+#svg2{
+    margin-left:570px
+}
+
+#svg3{
+    margin-left:680px
+}
+#svg4{
+    margin-left:720px
+}
+#svg5{
+    margin-left:570px
+}
+#svg6{
+    margin-left:635px
+}
+figure h2{
+    /* border: 2px solid green; */
+    margin-top: 4%;
+    margin-left: 30%;
+    margin-right: 20%;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(255,255,255);
+     font-family: sans-serif;
+
+}
+figure span input{
+    border: 1px solid gray;
+    width: 390px;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+#get{
+    /* border: 3px solid red; */
+    border-radius: 3px;
+    background-color:rgb(193, 17, 25) ;
+    padding: 12px;
+    /* padding-right: 3%; */
+    font-size: 28px;
+    cursor: pointer;
+}
+.bx-chevron-right{
+    margin-left: 3%;
+    font-size: 30px;
+}
+summary:hover{
+    cursor: pointer;
+   background-color:rgb(80, 78, 78);
+}

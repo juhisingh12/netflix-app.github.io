@@ -1,0 +1,24 @@
+footer{
+    border: none;
+    height: 450px;
+    color: rgba(255,255,255,0.7);
+    background-color: black;
+}
+#footer-div{
+    /* border: 3px solid green; */
+    margin-left: 10%;
+    padding-top: 3%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+#footer-div>div{
+    line-height: 50px;
+}
+#footer-div>div+div{
+    margin-top: 5%;
+}
+footer a{
+    color: rgba(255,255,255,0.7) ;
+    cursor: pointer;
+}

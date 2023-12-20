@@ -1,0 +1,72 @@
+@import url("./section.css");
+@import url("./article.css");
+@import url("./aside.css");
+@import url("./footer.css");
+@import url("./figure.css");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(./NETF.jpg);
+    height: 700px;
+    background-size: 100%;
+    /* border: 2px solid black; */  
+}
+#box{
+    display: flex;
+}
+#box2{
+    margin-left: 50%;
+    margin-top: 2%;
+}
+#box3{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+h1{
+    color: white;
+    margin-left: 15%;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+h3{
+    color:rgb(255,255,255);
+    margin-left: 25%;
+    font-size:1.5rem ;
+    font-weight: 400;
+    font-family:sans-serif ;
+}
+h5{
+    color:rgb(255,255,255);
+    margin-left: 25%;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family:sans-serif ;
+}
+input{
+    margin-left: 26%;
+    border: 1px solid rgb(115, 105, 105) ;
+    font-size: 18px;
+    height: 50px;
+    width: 400px;
+    background-color:transparent;
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+ 
+
+
+
+
